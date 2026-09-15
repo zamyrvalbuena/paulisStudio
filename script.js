@@ -19,7 +19,7 @@ const mensaje = `Hola, me gustaría reservar una cita en Paulis Studio. Mi nombr
 
 // Codificar el texto para que sera válida en una URL
 const mensajeCodificado = encodeURIComponent(mensaje);
-const numeroWhatsApp = "573103114866";
+const numeroWhatsApp = "573145086329";
 
 // Redireccionar al enlace de WhatsApp 
 const url = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`;
