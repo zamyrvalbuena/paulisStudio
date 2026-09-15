@@ -17,6 +17,7 @@
   body{
     font-family:'Jost', sans-serif;
     color:var(--ink);
+    color:var(--ink);
     background:var(--cream-light);
     font-weight:300;
     letter-spacing:.01em;
@@ -165,26 +166,34 @@
   }
   .hero-content{
     position:relative; z-index:2;
-    color:var(--cream-light);
+    color:var(--white);
     max-width:760px;
     padding:0 24px;
+    text-shadow:0 2px 12px rgba(0,0,0,.42);
   }
-  .hero-content .eyebrow{color:var(--gold-light); font-size:13px;}
+  .hero-content .eyebrow{
+    color:var(--white);
+    font-size:13px;
+    font-weight:600;
+    text-shadow:0 1px 8px rgba(0,0,0,.5);
+  }
   .hero-content h1{
-    color:var(--cream-light);
+    color:var(--white);
     font-size:26px;
-    letter-spacing:.14em;
+    letter-spacing:.1em;
     text-transform:uppercase;
     margin-top:18px;
     font-family:'Jost',sans-serif;
-    font-weight:400;
+    font-weight:600;
   }
   .hero-content h2{
     color:var(--white);
     font-size:64px;
     line-height:1.08;
     margin-top:10px;
-    font-family:'Marcellus',serif;
+    font-family:'Jost',sans-serif;
+    font-weight:500;
+    letter-spacing:.01em;
   }
   .hero-content .arc{
     width:70px;height:34px;
@@ -195,7 +204,8 @@
   }
   .hero-content p{
     font-size:16px;
-    color:rgba(255,255,255,.82);
+    color:var(--white);
+    font-weight:400;
     margin-bottom:38px;
     line-height:1.7;
   }
